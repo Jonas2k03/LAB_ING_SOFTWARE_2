@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "85d6920a-aa7c-4502-a2b0-4c861f1833db",
+		"name": "Lab Cliente - Servidor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30923921"
+	},
+	"item": [
+		{
+			"name": "Listar acciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar usuarios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener acciones de un usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/usuario/obtenerAccionesUsuario/Julio/5paEstos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"obtenerAccionesUsuario",
+						"Julio",
+						"5paEstos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar acción",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"nombreAccion\": \"Nueva Accion\",\r\n    \"precioActual\": 100,\r\n    \"precioAnterior\": 90\r\n  }\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accion/agregarAccion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accion",
+						"agregarAccion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre_usuario\": \"jonas\",\r\n  \"contrasena\": \"12345\", \r\n  \"cartera\": 5000\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuario/agregarUsuarioList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"agregarUsuarioList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comprar Acciones",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuario/agregarAccionUsuario/Julio/5paEstos/Tesla/10/40/60",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"agregarAccionUsuario",
+						"Julio",
+						"5paEstos",
+						"Tesla",
+						"10",
+						"40",
+						"60"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar accion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/accion/eliminarAccion/Google",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accion",
+						"eliminarAccion",
+						"Google"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar accion de usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/usuario/eliminarAccionUsuario/Julio/5paEstos/Papitas comuneros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"eliminarAccionUsuario",
+						"Julio",
+						"5paEstos",
+						"Papitas comuneros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/usuario/eliminarUsuario/Laura/Lau123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"eliminarUsuario",
+						"Laura",
+						"Lau123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar precio de acción",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accion/actualizarAccion/Papitas comuneros/700",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accion",
+						"actualizarAccion",
+						"Papitas comuneros",
+						"700"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar multiples usuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"nombre_usuario\": \"Jonas\",\r\n        \"contrasena\": \"1\",\r\n        \"cartera\": 5000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"CarlosM\",\r\n        \"contrasena\": \"2\",\r\n        \"cartera\": 7000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"JuanCarlos\",\r\n        \"contrasena\": \"3\",\r\n        \"cartera\": 7000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Collazos\",\r\n        \"contrasena\": \"4\",\r\n        \"cartera\": 7000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Harold\",\r\n        \"contrasena\": \"5\",\r\n        \"cartera\": 7000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Julio\",\r\n        \"contrasena\": \"5paEstos\",\r\n        \"cartera\": 5000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Ricardo\",\r\n        \"contrasena\": \"deAcuerdoconJulio\",\r\n        \"cartera\": 5000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Laura\",\r\n        \"contrasena\": \"Lau123\",\r\n        \"cartera\": 6000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Gabriel\",\r\n        \"contrasena\": \"G@briel\",\r\n        \"cartera\": 5500\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Isabel\",\r\n        \"contrasena\": \"Is@bel87\",\r\n        \"cartera\": 7200\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Mateo\",\r\n        \"contrasena\": \"M@teo456\",\r\n        \"cartera\": 6700\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Catalina\",\r\n        \"contrasena\": \"Cat@lina\",\r\n        \"cartera\": 4800\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Felipe\",\r\n        \"contrasena\": \"F3l1p3\",\r\n        \"cartera\": 8000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Daniela\",\r\n        \"contrasena\": \"Dan!ela\",\r\n        \"cartera\": 6100\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Sebastian\",\r\n        \"contrasena\": \"S3b@stian\",\r\n        \"cartera\": 5300\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Valentina\",\r\n        \"contrasena\": \"V@lentina\",\r\n        \"cartera\": 6800\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Andres\",\r\n        \"contrasena\": \"Andr3s\",\r\n        \"cartera\": 5900\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Sofia\",\r\n        \"contrasena\": \"Sof!a\",\r\n        \"cartera\": 7200\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Nicolas\",\r\n        \"contrasena\": \"N1c0las\",\r\n        \"cartera\": 6500\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Camila\",\r\n        \"contrasena\": \"C@mila\",\r\n        \"cartera\": 7500\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"MateoM\",\r\n        \"contrasena\": \"M@t30M\",\r\n        \"cartera\": 5900\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Luisa\",\r\n        \"contrasena\": \"Lu1sa\",\r\n        \"cartera\": 6200\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Javier\",\r\n        \"contrasena\": \"Jav!er\",\r\n        \"cartera\": 5400\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Mariana\",\r\n        \"contrasena\": \"Mar!ana\",\r\n        \"cartera\": 7100\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"JuanPablo\",\r\n        \"contrasena\": \"JuanP@blo\",\r\n        \"cartera\": 6600\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Antonia\",\r\n        \"contrasena\": \"Ant0nia\",\r\n        \"cartera\": 5900\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Eduardo\",\r\n        \"contrasena\": \"Ed@ardo\",\r\n        \"cartera\": 6700\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Gabriela\",\r\n        \"contrasena\": \"G@briela\",\r\n        \"cartera\": 6000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Raul\",\r\n        \"contrasena\": \"R@ul123\",\r\n        \"cartera\": 7100\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Clara\",\r\n        \"contrasena\": \"Cl@ra\",\r\n        \"cartera\": 5500\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Hernando\",\r\n        \"contrasena\": \"H3rnando\",\r\n        \"cartera\": 6800\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Carmen\",\r\n        \"contrasena\": \"C@rmen\",\r\n        \"cartera\": 4900\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Rodrigo\",\r\n        \"contrasena\": \"R0drigo\",\r\n        \"cartera\": 6300\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Carolina\",\r\n        \"contrasena\": \"Car0lina\",\r\n        \"cartera\": 7100\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Fernando\",\r\n        \"contrasena\": \"F3rnando\",\r\n        \"cartera\": 6700\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Marta\",\r\n        \"contrasena\": \"Mart@\",\r\n        \"cartera\": 5200\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Pablo\",\r\n        \"contrasena\": \"P@blo\",\r\n        \"cartera\": 6000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Lorena\",\r\n        \"contrasena\": \"L0rena\",\r\n        \"cartera\": 5800\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"FelipeM\",\r\n        \"contrasena\": \"F3l1peM\",\r\n        \"cartera\": 6400\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Adriana\",\r\n        \"contrasena\": \"Adri@na\",\r\n        \"cartera\": 7000\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Arturo\",\r\n        \"contrasena\": \"Artur0\",\r\n        \"cartera\": 5600\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Estefania\",\r\n        \"contrasena\": \"Est3fania\",\r\n        \"cartera\": 7300\r\n    },\r\n    {\r\n        \"nombre_usuario\": \"Cesar\",\r\n        \"contrasena\": \"C3sar\",\r\n        \"cartera\": 5800\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuario/agregarUsuarioLista",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuario",
+						"agregarUsuarioLista"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

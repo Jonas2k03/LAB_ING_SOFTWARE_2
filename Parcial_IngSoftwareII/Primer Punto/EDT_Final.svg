@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<svg width="10840.451721364097" height="2706.356176255343" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <!-- svg-source:excalidraw -->
+ <defs>
+  <style class="style-fonts">@font-face {
+        font-family: &quot;Virgil&quot;;
+        src: url(&quot;https://excalidraw.com/Virgil.woff2&quot;);
+      }
+      @font-face {
+        font-family: &quot;Cascadia&quot;;
+        src: url(&quot;https://excalidraw.com/Cascadia.woff2&quot;);
+      }</style>
+ </defs>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <mask/>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" height="2706.36" id="svg_1" transform="matrix(1 0 0 1 0 0) matrix(1 0 0 1 116.667 -373.333)" width="10840.45" x="-3.33" y="-40"/>
+  <g id="svg_2" transform="translate(131.39087779384352 473.45698457795197) rotate(0 526.0151548455613 64.60937630274053)">
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_3" text-anchor="start" x="0" y="0">Gestión del proyecto</text>
+  </g>
+  <g id="svg_4" transform="matrix(1 0 0 1 0 0)">
+   <text fill="#e03131" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_5" text-anchor="start" x="-3.33" y="0">Reservify</text>
+  </g>
+  <g id="svg_6" transform="translate(3897.510301695308 473.45698457795197) rotate(0 350.22885169339474 129.21875260548106)">
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_7" text-anchor="start" x="0" y="0">Proceso de</text>
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_8" text-anchor="start" x="0" y="129.22">implementación</text>
+  </g>
+  <g id="svg_9" transform="translate(7380.9127986844305 473.45698457795197) rotate(0 279.4697747520913 129.21875260548106)">
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_10" text-anchor="start" x="0" y="0">Proceso de</text>
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_11" text-anchor="start" x="0" y="129.22">calidad</text>
+  </g>
+  <g id="svg_12" transform="translate(9743.048397501088 473.45698457795197) rotate(0 268.56390749793627 129.21875260548106)">
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_13" text-anchor="start" x="0" y="0">Cierre del</text>
+   <text fill="#f08c00" font-family="Virgil, Segoe UI Emoji" font-size="103.38px" id="svg_14" text-anchor="start" x="0" y="129.22">proyecto</text>
+  </g>
+  <g id="svg_15" transform="translate(338.33771090261337 862.162842611073) rotate(0 293.88571474159755 94.24826981762652)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_16" text-anchor="start" x="0" y="0">Reunión de inicio</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_17" text-anchor="start" x="0" y="94.25">de proyecto</text>
+  </g>
+  <g id="svg_18" stroke-linecap="round">
+   <g id="svg_19" transform="translate(146.3411031028097 548.208111122783) rotate(0 -65.58671289474427 -0.6255868127522897)">
+    <path d="m1.18,-0.05c-21.92,-0.08 -110.79,0.46 -132.86,0.48m132.02,-1.55c-22.02,-0.53 -110.71,-0.78 -132.69,-0.34" fill="none" id="svg_20" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_21" stroke-linecap="round">
+   <g id="svg_22" transform="translate(11.789075322113945 548.208111122783) rotate(0 -0.2525200122222486 188.00470497485782)">
+    <path d="m-0.6,0.4c-0.05,62.67 0.05,312.09 0.05,374.72m1.83,-375.55c-0.22,62.92 -2.57,314.43 -3.07,376.87" fill="none" id="svg_23" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_24" stroke-linecap="round">
+   <g id="svg_25" transform="translate(11.789075322113945 921.9637438469377) rotate(0 157.53271972277037 -1.0318879064949442)">
+    <path d="m0.85,-0.78c52.71,-0.54 262.14,-2.27 314.38,-2.71m-315.4,4.92c52.64,-0.33 261.55,-2.86 314.35,-3.45" fill="none" id="svg_26" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_27" transform="translate(11.789075322113945 921.9637438469377) rotate(0 157.53271972277037 -1.0318879064949442)">
+    <path d="m284.81,8.22c7.01,-3.97 13.03,-3.62 29.49,-8.34m-28.29,9.54c7.38,-3.65 15.04,-5.99 27.28,-11.38" fill="none" id="svg_28" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_29" transform="translate(11.789075322113945 921.9637438469377) rotate(0 157.53271972277037 -1.0318879064949442)">
+    <path d="m284.57,-12.3c7.02,0.36 13.09,5.04 29.73,12.18m-28.53,-10.98c7.5,1.47 15.22,4.25 27.52,9.14" fill="none" id="svg_30" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_31" transform="translate(265.9594900682521 1415.321179042822) rotate(0 366.2639355759589 94.24826981762646)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_32" text-anchor="start" x="0" y="0">Declaración de idea</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_33" text-anchor="start" x="0" y="94.25">del proyecto</text>
+  </g>
+  <g id="svg_34" stroke-linecap="round">
+   <g id="svg_35" transform="translate(11.789075322113945 921.9637438469377) rotate(0 -0.5208902981013352 275.6501723360869)">
+    <path d="m0.42,-0.64c-0.22,91.89 -0.75,460.5 -0.73,552.58m-0.5,-550.3c-0.5,91.5 -0.76,457.21 -0.62,548.57" fill="none" id="svg_36" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_37" stroke-linecap="round">
+   <g id="svg_38" transform="translate(11.789075322113945 1475.1220802786868) rotate(0 125.49407844071186 -0.4579296007566427)">
+    <path d="m0.62,-0.48c41.56,0.32 207.23,1.24 248.6,1.35m-249.74,-2.65c41.97,0.09 210.09,0.42 252.03,0.98" fill="none" id="svg_39" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_40" transform="translate(11.789075322113945 1475.1220802786868) rotate(0 125.49407844071186 -0.4579296007566427)">
+    <path d="m222.45,7.93c10.35,-3.65 17.18,-3.43 30.08,-9.06m-29.02,10.3c10.64,-3.12 20.28,-7.45 27.84,-9.58" fill="none" id="svg_41" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_42" transform="translate(11.789075322113945 1475.1220802786868) rotate(0 125.49407844071186 -0.4579296007566427)">
+    <path d="m222.59,-12.59c10.13,2.17 16.92,8.21 29.94,11.46m-28.88,-10.22c10.44,4.04 20.03,6.88 27.7,10.94" fill="none" id="svg_43" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_44" transform="translate(340.6940321193702 1878.778163620774) rotate(0 285.36618960341025 94.24826981762646)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_45" text-anchor="start" x="0" y="0">Plan de gestión</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_46" text-anchor="start" x="0" y="94.25">de riesgos</text>
+  </g>
+  <g id="svg_47" stroke-linecap="round">
+   <g id="svg_48" transform="translate(11.789075322113945 1475.1220802786868) rotate(0 0.5073135894233474 248.3976607826546)">
+    <path d="m-0.43,-0.02c0.07,82.92 -0.58,413.8 -0.31,496.54m2.28,-497.6c0.56,83.19 0.13,415.86 0.04,498.96" fill="none" id="svg_49" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_50" stroke-linecap="round">
+   <g id="svg_51" transform="translate(11.789075322113945 1968.4795154745711) rotate(0 160.7844732796234 0.2882653799839545)">
+    <path d="m1.19,-0.55c53.41,0.07 266.51,1.2 320.03,1.16m-320.87,1.16c53.16,-0.29 266.18,-2.68 319.78,-2.97" fill="none" id="svg_52" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_53" transform="translate(11.789075322113945 1968.4795154745711) rotate(0 160.7844732796234 0.2882653799839545)">
+    <path d="m291.1,8.85c12.1,-2.3 19.92,-5.44 29.2,-10.82m-28.98,10.48c7.95,-1.16 14.09,-3.48 29.63,-10.04" fill="none" id="svg_54" stroke="#1e1e1e"/>
+   </g>
+   <g id="svg_55" transform="translate(11.789075322113945 1968.4795154745711) rotate(0 160.7844732796234 0.2882653799839545)">
+    <path d="m290.93,-11.67c12.18,5.13 20.06,9.41 29.37,9.7m-29.16,-10.04c7.96,3.46 14.13,5.77 29.81,10.48" fill="none" id="svg_56" stroke="#1e1e1e"/>
+   </g>
+  </g>
+  <g id="svg_57" transform="translate(1804.4787584400415 951.8641944648701) rotate(0 379.45786984440997 94.24826981762652)">
+   <text fill="#099268" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_58" text-anchor="start" x="0" y="0">Análisis y diseño de</text>
+   <text fill="#099268" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_59" text-anchor="start" x="0" y="94.25">requerimientos</text>
+  </g>
+  <g id="svg_60" stroke-linecap="round">
+   <g id="svg_61" transform="translate(3897.510301028468 742.5610401393434) rotate(0 -844.6877296231697 97.17646450828025)">
+    <path d="m0,0c-339.63,0 -679.26,0 -1689.38,0m1689.38,0c-594.51,0 -1189.02,0 -1689.38,0m0,0c0,56.72 0,113.44 0,194.35m0,-194.35c0,69.14 0,138.28 0,194.35" fill="none" id="svg_62" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_63" transform="translate(3897.510301028468 742.5610401393434) rotate(0 -844.6877296231697 97.17646450828025)">
+    <path d="m-1699.64,166.16c2.07,5.67 4.13,11.34 10.26,28.19m-10.26,-28.19c3.61,9.92 7.23,19.84 10.26,28.19" fill="none" id="svg_64" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_65" transform="translate(3897.510301028468 742.5610401393434) rotate(0 -844.6877296231697 97.17646450828025)">
+    <path d="m-1679.11,166.16c-2.07,5.67 -4.13,11.34 -10.27,28.19m10.27,-28.19c-3.62,9.92 -7.23,19.84 -10.27,28.19" fill="none" id="svg_66" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_67" transform="translate(2043.6823633835002 1340.5700524979911) rotate(0 292.57736471696205 36.20446843277267)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_68" text-anchor="start" x="0" y="0">Historias de Usuario</text>
+  </g>
+  <g id="svg_69" transform="translate(2193.1846164731624 1505.0225308966192) rotate(0 167.02569833095754 72.40893686554534)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_70" text-anchor="start" x="0" y="0">Criterios de</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_71" text-anchor="start" x="0" y="72.41">aceptación</text>
+  </g>
+  <g id="svg_72" transform="translate(2208.1348417821287 1774.1265864580107) rotate(0 148.80839619727067 36.204468432772615)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_73" text-anchor="start" x="0" y="0">Prototipos</text>
+  </g>
+  <g id="svg_74" transform="translate(2282.8859683269598 2177.7826698000977) rotate(0 107.18955219442387 36.204468432772615)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_75" text-anchor="start" x="0" y="0">Backlog</text>
+  </g>
+  <g id="svg_76" transform="translate(2282.8859683269598 2387.0858241256246) rotate(0 214.11842899729868 36.204468432772615)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_77" text-anchor="start" x="0" y="0">Planning Pocker</text>
+  </g>
+  <g id="svg_78" transform="translate(2208.1348417821287 1998.3799660925035) rotate(0 202.56245871449585 36.204468432772615)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_79" text-anchor="start" x="0" y="0">Sprint Planning</text>
+  </g>
+  <g id="svg_80" transform="translate(1968.9312368386695 1191.0677994083292) rotate(0 222.77818093445785 36.20446843277267)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_81" text-anchor="start" x="0" y="0">Historias Épicas</text>
+  </g>
+  <g id="svg_82" stroke-linecap="round">
+   <g id="svg_83" transform="translate(1789.5285331310752 1056.5157716276335) rotate(0 89.32759622107301 82.22623919931408)">
+    <path d="m0,0c0,56.89 0,113.78 0,164.45m0,-164.45c0,59.19 0,118.39 0,164.45m0,0c68.02,0 136.04,0 178.66,0m-178.66,0c68.73,0 137.46,0 178.66,0" fill="none" id="svg_84" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_85" transform="translate(1789.5285331310752 1056.5157716276335) rotate(0 89.32759622107301 82.22623919931408)">
+    <path d="m150.46,174.71c9.76,-3.55 19.51,-7.1 28.2,-10.26m-28.2,10.26c10.15,-3.69 20.3,-7.38 28.2,-10.26" fill="none" id="svg_86" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_87" transform="translate(1789.5285331310752 1056.5157716276335) rotate(0 89.32759622107301 82.22623919931408)">
+    <path d="m150.46,154.19c9.76,3.55 19.51,7.1 28.2,10.26m-28.2,-10.26c10.15,3.7 20.3,7.39 28.2,10.26" fill="none" id="svg_88" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_89" stroke-linecap="round">
+   <g id="svg_90" transform="translate(1983.8814621476354 1265.81892595316) rotate(0 29.900450617932393 59.800901235864785)">
+    <path d="m0,0c0,42.19 0,84.38 0,119.6m0,-119.6c0,32.39 0,64.77 0,119.6m0,0c17.34,0 34.67,0 59.8,0m-59.8,0c13.9,0 27.8,0 59.8,0" fill="none" id="svg_91" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_92" transform="translate(1983.8814621476354 1265.81892595316) rotate(0 29.900450617932393 59.800901235864785)">
+    <path d="m31.7,129.83c9.91,-3.61 19.83,-7.22 28.1,-10.23m-28.1,10.23c7.61,-2.77 15.22,-5.54 28.1,-10.23" fill="none" id="svg_93" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_94" transform="translate(1983.8814621476354 1265.81892595316) rotate(0 29.900450617932393 59.800901235864785)">
+    <path d="m31.7,109.38c9.91,3.6 19.83,7.21 28.1,10.22m-28.1,-10.22c7.61,2.76 15.22,5.53 28.1,10.22" fill="none" id="svg_95" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_96" stroke-linecap="round">
+   <g id="svg_97" transform="translate(2118.4334899283313 1430.2714043517883) rotate(0 29.90045061793228 97.17646450828022)">
+    <path d="m0,0c0,74.58 0,149.17 0,194.35m0,-194.35c0,70.94 0,141.89 0,194.35m0,0c21.47,0 42.95,0 59.8,0m-59.8,0c17.03,0 34.07,0 59.8,0" fill="none" id="svg_98" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_99" transform="translate(2118.4334899283313 1430.2714043517883) rotate(0 29.90045061793228 97.17646450828022)">
+    <path d="m31.7,204.58c10.79,-3.93 21.57,-7.85 28.1,-10.23m-28.1,10.23c10.26,-3.73 20.52,-7.47 28.1,-10.23" fill="none" id="svg_100" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_101" transform="translate(2118.4334899283313 1430.2714043517883) rotate(0 29.90045061793228 97.17646450828022)">
+    <path d="m31.7,184.13c10.79,3.92 21.57,7.85 28.1,10.22m-28.1,-10.22c10.26,3.73 20.52,7.46 28.1,10.22" fill="none" id="svg_102" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_103" stroke-linecap="round">
+   <g id="svg_104" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 201.8280416710436)">
+    <path d="m0,0c0,109.2 0,218.4 0,403.66m0,-403.66c0,153.03 0,306.06 0,403.66m0,0c27.22,0 54.43,0 74.75,0m-74.75,0c23.65,0 47.29,0 74.75,0" fill="none" id="svg_105" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_106" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 201.8280416710436)">
+    <path d="m46.56,413.92c7.63,-2.78 15.25,-5.55 28.19,-10.26m-28.19,10.26c10.69,-3.89 21.38,-7.78 28.19,-10.26" fill="none" id="svg_107" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_108" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 201.8280416710436)">
+    <path d="m46.56,393.4c7.63,2.77 15.25,5.55 28.19,10.26m-28.19,-10.26c10.69,3.89 21.38,7.78 28.19,10.26" fill="none" id="svg_109" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_110" stroke-linecap="round">
+   <g id="svg_111" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 313.95473148829)">
+    <path d="m0,0c0,196.43 0,392.86 0,627.91m0,-627.91c0,127.85 0,255.7 0,627.91m0,0c27.32,0 54.64,0 74.75,0m-74.75,0c27,0 53.99,0 74.75,0" fill="none" id="svg_112" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_113" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 313.95473148829)">
+    <path d="m46.56,638.17c8.82,-3.21 17.64,-6.42 28.19,-10.26m-28.19,10.26c5.74,-2.09 11.48,-4.18 28.19,-10.26" fill="none" id="svg_114" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_115" transform="translate(2118.4334899283313 1415.321179042822) rotate(0 37.37556327241532 313.95473148829)">
+    <path d="m46.56,617.65c8.82,3.21 17.64,6.42 28.19,10.26m-28.19,-10.26c5.74,2.09 11.48,4.18 28.19,10.26" fill="none" id="svg_116" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_117" stroke-linecap="round">
+   <g id="svg_118" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 29.900450617932393 74.75112654483098)">
+    <path d="m0,0c0,32.01 0,64.02 0,149.5m0,-149.5c0,46.96 0,93.93 0,149.5m0,0c16.91,0 33.82,0 59.8,0m-59.8,0c19.25,0 38.51,0 59.8,0" fill="none" id="svg_119" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_120" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 29.900450617932393 74.75112654483098)">
+    <path d="m31.7,159.73c6.02,-2.19 12.03,-4.38 28.1,-10.23m-28.1,10.23c8.83,-3.21 17.66,-6.43 28.1,-10.23" fill="none" id="svg_121" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_122" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 29.900450617932393 74.75112654483098)">
+    <path d="m31.7,139.28c6.02,2.19 12.03,4.37 28.1,10.22m-28.1,-10.22c8.83,3.21 17.66,6.42 28.1,10.22" fill="none" id="svg_123" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_124" stroke-linecap="round">
+   <g id="svg_125" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 22.425337963449124 171.9275910531112)">
+    <path d="m0,0c0,75.18 0,150.36 0,343.86m0,-343.86c0,71.64 0,143.28 0,343.86m0,0c14.31,0 28.63,0 44.85,0m-44.85,0c12.13,0 24.27,0 44.85,0" fill="none" id="svg_126" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_127" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 22.425337963449124 171.9275910531112)">
+    <path d="m23.78,351.53c4.61,-1.68 9.21,-3.36 21.07,-7.67m-21.07,7.67c4.39,-1.6 8.78,-3.2 21.07,-7.67" fill="none" id="svg_128" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_129" transform="translate(2223.085067091095 2088.0813179463007) rotate(0 22.425337963449124 171.9275910531112)">
+    <path d="m23.78,336.19c4.61,1.67 9.21,3.35 21.07,7.67m-21.07,-7.67c4.39,1.59 8.78,3.19 21.07,7.67" fill="none" id="svg_130" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_141" transform="translate(3303.3833269444112 951.8641944648701) rotate(0 121.42200198423416 47.12413490881326)">
+   <text fill="#2f9e44" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_142" text-anchor="start" x="0" y="0">Diseño</text>
+  </g>
+  <g id="svg_143" stroke-linecap="round">
+   <g id="svg_144" transform="translate(4626.878156321262 742.5610401393434) rotate(0 166.04907115532296 97.17646450828023)">
+    <path d="m0,0c114.03,0 228.07,0 332.1,0m-332.1,0c90.22,0 180.44,0 332.1,0m0,0c0,64.48 0,128.97 0,194.35m0,-194.35c0,55.4 0,110.81 0,194.35" fill="none" id="svg_145" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_146" transform="translate(4626.878156321262 742.5610401393434) rotate(0 166.04907115532296 97.17646450828023)">
+    <path d="m321.84,166.16c3.52,9.68 7.04,19.36 10.26,28.19m-10.26,-28.19c2.78,7.66 5.57,15.32 10.26,28.19" fill="none" id="svg_147" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_148" transform="translate(4626.878156321262 742.5610401393434) rotate(0 166.04907115532296 97.17646450828023)">
+    <path d="m342.36,166.16c-3.52,9.68 -7.05,19.36 -10.26,28.19m10.26,-28.19c-2.79,7.66 -5.58,15.32 -10.26,28.19" fill="none" id="svg_149" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_150" transform="translate(3389.2026411904576 1191.0677994083292) rotate(0 217.15948221306962 108.61340529831796)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_151" text-anchor="start" x="0" y="0">Script de la</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_152" text-anchor="start" x="0" y="72.41">Base de datos</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_153" text-anchor="start" x="0" y="144.82"/>
+  </g>
+  <g id="svg_154" stroke-linecap="round">
+   <g id="svg_155" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m0,0c0,70.97 0,141.93 0,224.25m0,-224.25c0,58.72 0,117.44 0,224.25m0,0c13.9,0 27.79,0 59.8,0m-59.8,0c21.53,0 43.06,0 59.8,0" fill="none" id="svg_156" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_157" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m31.7,234.48c8.9,-3.24 17.79,-6.47 28.1,-10.23m-28.1,10.23c7.36,-2.68 14.72,-5.36 28.1,-10.23" fill="none" id="svg_158" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_159" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m31.7,214.03c8.9,3.23 17.79,6.47 28.1,10.22m-28.1,-10.22c7.36,2.67 14.72,5.35 28.1,10.22" fill="none" id="svg_160" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_161" transform="translate(3403.6838013553765 1505.0225308966192) rotate(0 194.974334255538 36.204468432772615)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_162" text-anchor="start" x="0" y="0">Casos de uso</text>
+  </g>
+  <g id="svg_163" transform="translate(3404.152866499424 1744.2261358400783) rotate(0 193.4682934158884 72.40893686554534)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_164" text-anchor="start" x="0" y="0">Diagrama de</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_165" text-anchor="start" x="0" y="72.41">actividades</text>
+  </g>
+  <g id="svg_166" stroke-linecap="round">
+   <g id="svg_167" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 246.67871759794218)">
+    <path d="m0,0c0,190.77 0,381.53 0,493.36m0,-493.36c0,191.58 0,383.16 0,493.36m0,0c20.66,0 41.32,0 59.8,0m-59.8,0c16.55,0 33.11,0 59.8,0" fill="none" id="svg_168" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_169" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 246.67871759794218)">
+    <path d="m31.7,503.58c10.87,-3.95 21.73,-7.9 28.1,-10.22m-28.1,10.22c10.91,-3.97 21.82,-7.94 28.1,-10.22" fill="none" id="svg_170" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_171" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 246.67871759794218)">
+    <path d="m31.7,483.13c10.87,3.96 21.73,7.91 28.1,10.23m-28.1,-10.23c10.91,3.97 21.82,7.94 28.1,10.23" fill="none" id="svg_172" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_173" stroke-linecap="round">
+   <g id="svg_174" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 381.23074537863795)">
+    <path d="m0,0c0,302.61 0,605.23 0,762.46m0,-762.46c0,193.83 0,387.66 0,762.46m0,0c13.29,0 26.58,0 59.8,0m-59.8,0c14.4,0 28.8,0 59.8,0" fill="none" id="svg_175" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_176" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 381.23074537863795)">
+    <path d="m31.7,772.69c11.16,-4.06 22.31,-8.12 28.1,-10.23m-28.1,10.23c7.15,-2.6 14.29,-5.2 28.1,-10.23" fill="none" id="svg_177" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_178" transform="translate(3314.451514645627 1056.5157716276335) rotate(0 29.900450617932393 381.23074537863795)">
+    <path d="m31.7,752.23c11.16,4.06 22.31,8.12 28.1,10.23m-28.1,-10.23c7.15,2.6 14.29,5.2 28.1,10.23" fill="none" id="svg_179" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_180" transform="translate(4749.673144306381 951.8641944648701) rotate(0 189.65355189679394 47.12413490881326)">
+   <text fill="#2f9e44" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_181" text-anchor="start" x="0" y="0">Desarrollo</text>
+  </g>
+  <g id="svg_182" stroke-linecap="round">
+   <g id="svg_183" transform="translate(3929.020355654264 742.5610401393434) rotate(0 -210.10795599603853 104.2778215300392)">
+    <path d="m0,0c-100.94,0 -201.88,0 -420.22,0m420.22,0c-94.69,0 -189.37,0 -420.22,0m0,0c0.4,44.26 0.8,88.51 1.89,208.56m-1.89,-208.56c0.63,69.57 1.26,139.14 1.89,208.56" fill="none" id="svg_184" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_185" transform="translate(3929.020355654264 742.5610401393434) rotate(0 -210.10795599603853 104.2778215300392)">
+    <path d="m-428.85,180.46c2.53,6.75 5.05,13.5 10.52,28.1m-10.52,-28.1c2.37,6.33 4.74,12.66 10.52,28.1" fill="none" id="svg_186" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_187" transform="translate(3929.020355654264 742.5610401393434) rotate(0 -210.10795599603853 104.2778215300392)">
+    <path d="m-408.33,180.27c-2.4,6.8 -4.8,13.59 -10,28.29m10,-28.29c-2.25,6.38 -4.51,12.75 -10,28.29" fill="none" id="svg_188" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_189" transform="translate(4854.324721469145 1191.0677994083292) rotate(0 278.6175097106743 72.40893686554534)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_190" text-anchor="start" x="0" y="0">Incrementos</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_191" text-anchor="start" x="0" y="72.41">(Implementación HU)</text>
+  </g>
+  <g id="svg_192" stroke-linecap="round">
+   <g id="svg_193" transform="translate(4779.5735949243135 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m0,0c0,82.09 0,164.19 0,224.25m0,-224.25c0,67.85 0,135.7 0,224.25m0,0c13.86,0 27.72,0 59.8,0m-59.8,0c21.81,0 43.62,0 59.8,0" fill="none" id="svg_194" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_195" transform="translate(4779.5735949243135 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m31.7,234.48c10.29,-3.74 20.58,-7.49 28.1,-10.23m-28.1,10.23c8.5,-3.09 17.01,-6.19 28.1,-10.23" fill="none" id="svg_196" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_197" transform="translate(4779.5735949243135 1056.5157716276335) rotate(0 29.900450617932393 112.12668981724642)">
+    <path d="m31.7,214.03c10.29,3.74 20.58,7.48 28.1,10.22m-28.1,-10.22c8.5,3.09 17.01,6.18 28.1,10.22" fill="none" id="svg_198" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_199" transform="translate(5898.85130055893 951.8641944648701) rotate(0 146.7920685077429 47.12413490881326)">
+   <text fill="#2f9e44" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_200" text-anchor="start" x="0" y="0">Montaje</text>
+  </g>
+  <g id="svg_201" stroke-linecap="round">
+   <g id="svg_202" transform="translate(3868.6001504561436 742.5610401393434) rotate(0 1090.8712978651483 97.17646450828025)">
+    <path d="m0,0c818.05,0 1636.09,0 2181.74,0m-2181.74,0c658.2,0 1316.39,0 2181.74,0m0,0c0,45.46 0,90.92 0,194.35m0,-194.35c0,73.92 0,147.84 0,194.35" fill="none" id="svg_203" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_204" transform="translate(3868.6001504561436 742.5610401393434) rotate(0 1090.8712978651483 97.17646450828025)">
+    <path d="m2171.48,166.16c3.85,10.57 7.7,21.14 10.26,28.19m-10.26,-28.19c3.1,8.51 6.19,17.01 10.26,28.19" fill="none" id="svg_205" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_206" transform="translate(3868.6001504561436 742.5610401393434) rotate(0 1090.8712978651483 97.17646450828025)">
+    <path d="m2192,166.16c-3.84,10.57 -7.69,21.14 -10.26,28.19m10.26,-28.19c-3.09,8.51 -6.19,17.01 -10.26,28.19" fill="none" id="svg_207" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_208" transform="translate(6057.50838808204 1191.0677994083292) rotate(0 226.60119188817544 72.40893686554534)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_209" text-anchor="start" x="0" y="0">Capacitación</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="57.93px" id="svg_210" text-anchor="start" x="0" y="72.41">(Vídeo Tutorial)</text>
+  </g>
+  <g id="svg_211" stroke-linecap="round">
+   <g id="svg_212" transform="translate(5960.641394332642 1056.5157716276335) rotate(0 44.850675926898475 127.07691512621261)">
+    <path d="m0,0c0,55.05 0,110.1 0,254.15m0,-254.15c0,87.47 0,174.93 0,254.15m0,0c28.43,0 56.87,0 89.7,0m-89.7,0c29.13,0 58.25,0 89.7,0" fill="none" id="svg_213" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_214" transform="translate(5960.641394332642 1056.5157716276335) rotate(0 44.850675926898475 127.07691512621261)">
+    <path d="m61.51,264.41c6.11,-2.22 12.21,-4.44 28.19,-10.26m-28.19,10.26c9.7,-3.53 19.4,-7.06 28.19,-10.26" fill="none" id="svg_215" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_216" transform="translate(5960.641394332642 1056.5157716276335) rotate(0 44.850675926898475 127.07691512621261)">
+    <path d="m61.51,243.89c6.11,2.23 12.21,4.45 28.19,10.26m-28.19,-10.26c9.7,3.53 19.4,7.07 28.19,10.26" fill="none" id="svg_217" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_218" transform="translate(7470.614150538228 847.2126173021068) rotate(0 254.83162733247264 94.24826981762652)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_219" text-anchor="start" x="0" y="0">Validación de</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_220" text-anchor="start" x="0" y="94.25">resultados</text>
+  </g>
+  <g id="svg_221" transform="translate(7470.614150538228 1250.868700644194) rotate(0 494.3959849355938 94.24826981762652)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_222" text-anchor="start" x="0" y="0">Evidencias</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_223" text-anchor="start" x="0" y="94.25">de correcto funcionamiento</text>
+  </g>
+  <g id="svg_224" stroke-linecap="round">
+   <g id="svg_225" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 104.65157716276335)">
+    <path d="m0,0c0,69.4 0,138.8 0,209.3m0,-209.3c0,55.91 0,111.82 0,209.3m0,0c10.58,0 21.15,0 44.85,0m-44.85,0c15.5,0 30.99,0 44.85,0" fill="none" id="svg_226" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_227" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 104.65157716276335)">
+    <path d="m23.78,216.97c6.99,-2.54 13.97,-5.08 21.07,-7.67m-21.07,7.67c5.63,-2.05 11.26,-4.09 21.07,-7.67" fill="none" id="svg_228" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_229" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 104.65157716276335)">
+    <path d="m23.78,201.63c6.99,2.55 13.97,5.09 21.07,7.67m-21.07,-7.67c5.63,2.05 11.26,4.1 21.07,7.67" fill="none" id="svg_230" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_231" stroke-linecap="round">
+   <g id="svg_232" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 313.95473148829)">
+    <path d="m0,0c0,219.84 0,439.67 0,627.91m0,-627.91c0,154.94 0,309.87 0,627.91m0,0c17.5,0 35.01,0 44.85,0m-44.85,0c14.06,0 28.13,0 44.85,0" fill="none" id="svg_233" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_234" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 313.95473148829)">
+    <path d="m23.78,635.58c7.38,-2.69 14.75,-5.37 21.07,-7.67m-21.07,7.67c5.2,-1.89 10.4,-3.79 21.07,-7.67" fill="none" id="svg_235" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_236" transform="translate(7410.813249302363 742.5610401393434) rotate(0 22.425337963449238 313.95473148829)">
+    <path d="m23.78,620.24c7.38,2.68 14.75,5.37 21.07,7.67m-21.07,-7.67c5.2,1.89 10.4,3.78 21.07,7.67" fill="none" id="svg_237" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_238" transform="translate(9892.55065059075 847.2126173021068) rotate(0 468.95053538667344 47.12413490881326)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_239" text-anchor="start" x="0" y="0">Artefactos documentales</text>
+  </g>
+  <g id="svg_240" transform="translate(9892.55065059075 1295.7193765710924) rotate(0 400.2665960727136 94.24826981762652)">
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_241" text-anchor="start" x="0" y="0">Software finalizado y</text>
+   <text fill="#1e1e1e" font-family="Virgil, Segoe UI Emoji" font-size="75.4px" id="svg_242" text-anchor="start" x="0" y="94.25">funcional</text>
+  </g>
+  <g id="svg_243" stroke-linecap="round">
+   <g id="svg_244" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 74.75112654483095)">
+    <path d="m0,0c0,58.21 0,116.42 0,149.5m0,-149.5c0,36.53 0,73.06 0,149.5m0,0c19.62,0 39.25,0 59.8,0m-59.8,0c13.11,0 26.23,0 59.8,0" fill="none" id="svg_245" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_246" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 74.75112654483095)">
+    <path d="m31.7,159.73c10.94,-3.98 21.88,-7.96 28.1,-10.23m-28.1,10.23c6.87,-2.5 13.73,-5 28.1,-10.23" fill="none" id="svg_247" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_248" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 74.75112654483095)">
+    <path d="m31.7,139.28c10.94,3.98 21.88,7.96 28.1,10.22m-28.1,-10.22c6.87,2.49 13.73,4.99 28.1,10.22" fill="none" id="svg_249" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_250" stroke-linecap="round">
+   <g id="svg_251" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 328.9049567972562)">
+    <path d="m0,0c0,214.49 0,428.98 0,657.81m0,-657.81c0,166.09 0,332.18 0,657.81m0,0c23.8,0 47.61,0 59.8,0m-59.8,0c14.03,0 28.05,0 59.8,0" fill="none" id="svg_252" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_253" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 328.9049567972562)">
+    <path d="m31.7,668.04c9.17,-3.34 18.33,-6.67 28.1,-10.23m-28.1,10.23c7.1,-2.59 14.19,-5.17 28.1,-10.23" fill="none" id="svg_254" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_255" transform="translate(9817.799524045919 742.5610401393434) rotate(0 29.90045061793262 328.9049567972562)">
+    <path d="m31.7,647.58c9.17,3.34 18.33,6.67 28.1,10.23m-28.1,-10.23c7.1,2.59 14.19,5.17 28.1,10.23" fill="none" id="svg_256" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_257" stroke-linecap="round">
+   <g id="svg_258" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -2534.0631898697693 186.8778163620774)">
+    <path d="m0,0c-1927.27,0 -3854.54,0 -5068.13,0m5068.13,0c-1053.55,0 -2107.09,0 -5068.13,0m0,0c0,108.63 0,217.25 0,373.76m0,-373.76c0,111.35 0,222.7 0,373.76" fill="none" id="svg_259" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_260" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -2534.0631898697693 186.8778163620774)">
+    <path d="m-5078.39,345.56c3.9,10.73 7.81,21.45 10.26,28.2m-10.26,-28.2c2.14,5.87 4.27,11.73 10.26,28.2" fill="none" id="svg_261" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_262" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -2534.0631898697693 186.8778163620774)">
+    <path d="m-5057.87,345.56c-3.9,10.73 -7.8,21.45 -10.26,28.2m10.26,-28.2c-2.13,5.87 -4.26,11.73 -10.26,28.2" fill="none" id="svg_263" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_264" stroke-linecap="round">
+   <g id="svg_265" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -725.0859274848603 186.8778163620774)">
+    <path d="m0,0c-302.15,0 -604.29,0 -1450.17,0m1450.17,0c-430.6,0 -861.19,0 -1450.17,0m0,0c0,76.73 0,153.47 0,373.76m0,-373.76c0,139.72 0,279.44 0,373.76" fill="none" id="svg_266" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_267" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -725.0859274848603 186.8778163620774)">
+    <path d="m-1460.43,345.56c2.14,5.88 4.27,11.75 10.26,28.2m-10.26,-28.2c3.04,8.38 6.09,16.75 10.26,28.2" fill="none" id="svg_268" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_269" transform="translate(5721.437789389183 84.75112654483098) rotate(0 -725.0859274848603 186.8778163620774)">
+    <path d="m-1439.91,345.56c-2.14,5.88 -4.28,11.75 -10.26,28.2m10.26,-28.2c-3.05,8.38 -6.09,16.75 -10.26,28.2" fill="none" id="svg_270" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_271" stroke-linecap="round">
+   <g id="svg_272" transform="translate(6184.894773967136 84.75112654483098) rotate(0 1936.0541775111215 186.8778163620774)">
+    <path d="m0,0c1387.11,0 2774.22,0 3872.11,0m-3872.11,0c1045.64,0 2091.27,0 3872.11,0m0,0c0,128.81 0,257.62 0,373.76m0,-373.76c0,126.44 0,252.89 0,373.76" fill="none" id="svg_273" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_274" transform="translate(6184.894773967136 84.75112654483098) rotate(0 1936.0541775111215 186.8778163620774)">
+    <path d="m3861.85,345.56c3.67,10.1 7.35,20.2 10.26,28.2m-10.26,-28.2c2.77,7.62 5.54,15.23 10.26,28.2" fill="none" id="svg_275" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_276" transform="translate(6184.894773967136 84.75112654483098) rotate(0 1936.0541775111215 186.8778163620774)">
+    <path d="m3882.37,345.56c-3.68,10.1 -7.35,20.2 -10.26,28.2m10.26,-28.2c-2.77,7.62 -5.54,15.23 -10.26,28.2" fill="none" id="svg_277" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <g id="svg_278" stroke-linecap="round">
+   <g id="svg_279" transform="translate(6184.894773967136 84.75112654483098) rotate(0 747.5112654483096 186.8778163620774)">
+    <path d="m0,0c330.37,0 660.73,0 1495.02,0m-1495.02,0c369.2,0 738.4,0 1495.02,0m0,0c0,76.9 0,153.8 0,373.76m0,-373.76c0,90.57 0,181.15 0,373.76" fill="none" id="svg_280" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_281" transform="translate(6184.894773967136 84.75112654483098) rotate(0 747.5112654483096 186.8778163620774)">
+    <path d="m1484.76,345.56c2.27,6.23 4.54,12.46 10.26,28.2m-10.26,-28.2c2.54,6.97 5.07,13.93 10.26,28.2" fill="none" id="svg_282" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+   <g id="svg_283" transform="translate(6184.894773967136 84.75112654483098) rotate(0 747.5112654483096 186.8778163620774)">
+    <path d="m1505.28,345.56c-2.26,6.23 -4.53,12.46 -10.26,28.2m10.26,-28.2c-2.53,6.97 -5.06,13.93 -10.26,28.2" fill="none" id="svg_284" stroke="#1e1e1e" stroke-width="2"/>
+   </g>
+  </g>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_285" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(8.01065 0 0 3.2486 -40415.6 34.0071)" x="5770.22" xml:space="preserve" y="6.31"/>
+  <text fill="#ff0000" font-family="Cursive" font-size="24" id="svg_286" stroke-width="0" text-anchor="middle" transform="matrix(4.97968 0 0 4.19307 -23368.5 -1.71922)" x="5894.25" xml:space="preserve" y="24.28">Gestor de acciones</text>
+ </g>
+</svg>

@@ -1,0 +1,223 @@
+JSON para insertar multiples usuarios
+
+'REST de tipo POST'
+http://localhost:8080/usuario/agregarUsuarioLista
+
+
+[
+    {
+        "nombre_usuario": "Jonas",
+        "contrasena": "1",
+        "cartera": 5000
+    },
+    {
+        "nombre_usuario": "CarlosM",
+        "contrasena": "2",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "JuanCarlos",
+        "contrasena": "3",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Collazos",
+        "contrasena": "4",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Harold",
+        "contrasena": "5",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Julio",
+        "contrasena": "5paEstos",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Ricardo",
+        "contrasena": "deAcuerdoconJulio",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Laura",
+        "contrasena": "Lau123",
+        "cartera": 6000
+    },
+    {
+        "nombre_usuario": "Gabriel",
+        "contrasena": "G@briel",
+        "cartera": 5500
+    },
+    {
+        "nombre_usuario": "Isabel",
+        "contrasena": "Is@bel87",
+        "cartera": 7200
+    },
+    {
+        "nombre_usuario": "Mateo",
+        "contrasena": "M@teo456",
+        "cartera": 6700
+    },
+    {
+        "nombre_usuario": "Catalina",
+        "contrasena": "Cat@lina",
+        "cartera": 4800
+    },
+    {
+        "nombre_usuario": "Felipe",
+        "contrasena": "F3l1p3",
+        "cartera": 8000
+    },
+    {
+        "nombre_usuario": "Daniela",
+        "contrasena": "Dan!ela",
+        "cartera": 6100
+    },
+    {
+        "nombre_usuario": "Sebastian",
+        "contrasena": "S3b@stian",
+        "cartera": 5300
+    },
+    {
+        "nombre_usuario": "Valentina",
+        "contrasena": "V@lentina",
+        "cartera": 6800
+    },
+    {
+        "nombre_usuario": "Andres",
+        "contrasena": "Andr3s",
+        "cartera": 5900
+    },
+    {
+        "nombre_usuario": "Sofia",
+        "contrasena": "Sof!a",
+        "cartera": 7200
+    },
+    {
+        "nombre_usuario": "Nicolas",
+        "contrasena": "N1c0las",
+        "cartera": 6500
+    },
+    {
+        "nombre_usuario": "Camila",
+        "contrasena": "C@mila",
+        "cartera": 7500
+    },
+    {
+        "nombre_usuario": "MateoM",
+        "contrasena": "M@t30M",
+        "cartera": 5900
+    },
+    {
+        "nombre_usuario": "Luisa",
+        "contrasena": "Lu1sa",
+        "cartera": 6200
+    },
+    {
+        "nombre_usuario": "Javier",
+        "contrasena": "Jav!er",
+        "cartera": 5400
+    },
+    {
+        "nombre_usuario": "Mariana",
+        "contrasena": "Mar!ana",
+        "cartera": 7100
+    },
+    {
+        "nombre_usuario": "JuanPablo",
+        "contrasena": "JuanP@blo",
+        "cartera": 6600
+    },
+    {
+        "nombre_usuario": "Antonia",
+        "contrasena": "Ant0nia",
+        "cartera": 5900
+    },
+    {
+        "nombre_usuario": "Eduardo",
+        "contrasena": "Ed@ardo",
+        "cartera": 6700
+    },
+    {
+        "nombre_usuario": "Gabriela",
+        "contrasena": "G@briela",
+        "cartera": 6000
+    },
+    {
+        "nombre_usuario": "Raul",
+        "contrasena": "R@ul123",
+        "cartera": 7100
+    },
+    {
+        "nombre_usuario": "Clara",
+        "contrasena": "Cl@ra",
+        "cartera": 5500
+    },
+    {
+        "nombre_usuario": "Hernando",
+        "contrasena": "H3rnando",
+        "cartera": 6800
+    },
+    {
+        "nombre_usuario": "Carmen",
+        "contrasena": "C@rmen",
+        "cartera": 4900
+    },
+    {
+        "nombre_usuario": "Rodrigo",
+        "contrasena": "R0drigo",
+        "cartera": 6300
+    },
+    {
+        "nombre_usuario": "Carolina",
+        "contrasena": "Car0lina",
+        "cartera": 7100
+    },
+    {
+        "nombre_usuario": "Fernando",
+        "contrasena": "F3rnando",
+        "cartera": 6700
+    },
+    {
+        "nombre_usuario": "Marta",
+        "contrasena": "Mart@",
+        "cartera": 5200
+    },
+    {
+        "nombre_usuario": "Pablo",
+        "contrasena": "P@blo",
+        "cartera": 6000
+    },
+    {
+        "nombre_usuario": "Lorena",
+        "contrasena": "L0rena",
+        "cartera": 5800
+    },
+    {
+        "nombre_usuario": "FelipeM",
+        "contrasena": "F3l1peM",
+        "cartera": 6400
+    },
+    {
+        "nombre_usuario": "Adriana",
+        "contrasena": "Adri@na",
+        "cartera": 7000
+    },
+    {
+        "nombre_usuario": "Arturo",
+        "contrasena": "Artur0",
+        "cartera": 5600
+    },
+    {
+        "nombre_usuario": "Estefania",
+        "contrasena": "Est3fania",
+        "cartera": 7300
+    },
+    {
+        "nombre_usuario": "Cesar",
+        "contrasena": "C3sar",
+        "cartera": 5800
+    }
+]

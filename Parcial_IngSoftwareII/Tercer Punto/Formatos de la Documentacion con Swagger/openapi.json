@@ -1,0 +1,551 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API para la gestión de acciones empresariales",
+    "description": "Esta API permite la compra y venta de acciones empresariales soportadas por una base de datos local.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "tags": [
+    {
+      "name": "usuarios",
+      "description": "Define todas las actividades relacionadas a la información de clientes y su interacción con el API"
+    },
+    {
+      "name": "acciones",
+      "description": "Define todas las acciones y sus actividades dentro de la base de datos"
+    }
+  ],
+  "paths": {
+    "/agregarUsuario": {
+      "post": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Inserta la información de un cliente en la base de datos local",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BodyClientPost"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "$ref": "#/components/responses/RegisterDone"
+          },
+          "400": {
+            "$ref": "#/components/responses/NotAbleToMake"
+          }
+        }
+      }
+    },
+    "/agregarUsuarioLista": {
+      "post": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Inserta una lista de usuarios en la base de datos",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BodyListClientPost"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "$ref": "#/components/responses/RegisterDone"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotAbleToMake"
+          }
+        }
+      }
+    },
+    "/agregarAccionUsuario": {
+      "post": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Compra para un determinado usuario, una determinada acción.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/nombre_usuario"
+          },
+          {
+            "$ref": "#/components/parameters/contrasena"
+          },
+          {
+            "$ref": "#/components/parameters/nombreAccion"
+          },
+          {
+            "$ref": "#/components/parameters/cantidadAcciones"
+          },
+          {
+            "$ref": "#/components/parameters/umbralInferior"
+          },
+          {
+            "$ref": "#/components/parameters/umbralSuperior",
+            "required": true
+          }
+        ],
+        "responses": {
+          "201": {
+            "$ref": "#/components/responses/RegisterDone"
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/eliminarAccionUsuario": {
+      "delete": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Elimina una determinada acción comprada por un determinado usuario (vender)",
+        "parameters": [
+          {
+            "name": "nombre_usuario",
+            "in": "header",
+            "description": "Nombre de usuario del cliente",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "contrasena",
+            "in": "header",
+            "description": "La contraseña del usuario",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "nombreAccion",
+            "in": "header",
+            "description": "Nombre de la acción a eliminar",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/Done"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/eliminarUsuario": {
+      "delete": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Elimina un usuario de la base de datos",
+        "parameters": [
+          {
+            "name": "nombre_usuario",
+            "in": "header",
+            "description": "Nombre de usuario del cliente",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "contrasena",
+            "in": "header",
+            "description": "La contraseña del usuario",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/Done"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/obtenerAccionesUsuario": {
+      "get": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Lista todas las acciones obtenidas por un usuario determinado.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/nombre_usuario"
+          },
+          {
+            "$ref": "#/components/parameters/contrasena"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "(Ok) La información de las acciones del cliente se obtuvo correctamente",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyClientAccion"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/usuario": {
+      "get": {
+        "tags": [
+          "usuarios"
+        ],
+        "summary": "Lista todos los usuarios",
+        "responses": {
+          "200": {
+            "description": "(Ok) La información de las acciones del cliente se obtuvo correctamente",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyListUsers"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agregarAccion": {
+      "post": {
+        "tags": [
+          "acciones"
+        ],
+        "summary": "Agrega una accion a la base de datos",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BodyAccion"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "$ref": "#/components/responses/RegisterDone"
+          },
+          "400": {
+            "$ref": "#/components/responses/NotAbleToMake"
+          }
+        }
+      }
+    },
+    "/eliminarAccion": {
+      "delete": {
+        "tags": [
+          "acciones"
+        ],
+        "summary": "Elimina una accion de la base de datos",
+        "parameters": [
+          {
+            "name": "nombreAccion",
+            "in": "header",
+            "description": "Nombre de la accion",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/Done"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/actualizarAccion": {
+      "patch": {
+        "tags": [
+          "acciones"
+        ],
+        "summary": "Actualiza el precio actual de una accion",
+        "parameters": [
+          {
+            "name": "nombreAccion",
+            "in": "header",
+            "description": "Nombre de la accion",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "valorAccion",
+            "in": "header",
+            "description": "Precio a modificar",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/Done"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/accion": {
+      "get": {
+        "tags": [
+          "acciones"
+        ],
+        "summary": "Obtiene todas las acciones registradas",
+        "responses": {
+          "200": {
+            "description": "(Ok) La informacion de las acciones registradas se obtuvo correctamente",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyListAccion"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "responses": {
+      "Done": {
+        "description": "Query realizado con éxito"
+      },
+      "RegisterDone": {
+        "description": "Se ha hecho el registro del elemento en la base de datos."
+      },
+      "NotFound": {
+        "description": "No se encontró el elemento"
+      },
+      "NotAbleToMake": {
+        "description": "No se pudo realizar el objeto"
+      },
+      "InternalServerError": {
+        "description": "Error interno del servidor"
+      },
+      "BadRequest": {
+        "description": "Query mal argumentado"
+      }
+    },
+    "parameters": {
+      "nombre_usuario": {
+        "in": "header",
+        "name": "nombre_usuario",
+        "description": "Nombre de usuario del cliente",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "contrasena": {
+        "in": "header",
+        "name": "contrasena",
+        "description": "La contraseña del usuario",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "nombreAccion": {
+        "in": "header",
+        "name": "nombreAccion",
+        "description": "Nombre de la acción a comprar",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "cantidadAcciones": {
+        "in": "header",
+        "name": "cantidadAcciones",
+        "description": "Total de la cantidad de acciones que se desea comprar",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "umbralInferior": {
+        "in": "header",
+        "name": "umbralInferior",
+        "description": "Umbral inferior al cual se desea notificar cuando la acción lo alcance",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "umbralSuperior": {
+        "in": "header",
+        "name": "umbralSuperior",
+        "description": "Umbral superior al cual se desea notificar cuando la acción lo alcance",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "cartera": {
+        "in": "header",
+        "name": "cartera",
+        "description": "Presupuesto total del usuario",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "carteraOriginal": {
+        "in": "header",
+        "name": "carteraOriginal",
+        "description": "Presupuesto total inicial del usuario",
+        "schema": {
+          "type": "integer"
+        }
+      }
+    },
+    "schemas": {
+      "BodyAccion": {
+        "type": "object",
+        "properties": {
+          "nombreAccion": {
+            "type": "string",
+            "description": "Nombre de la accion a agregar"
+          },
+          "precioActual": {
+            "type": "integer",
+            "description": "Precio que actualmente posee la accion"
+          },
+          "precioAnterior": {
+            "type": "integer",
+            "description": "Precio que tuvo anteriormente la acción previo al actual"
+          }
+        }
+      },
+      "BodyClientPost": {
+        "type": "object",
+        "properties": {
+          "nombre_usuario": {
+            "type": "string",
+            "description": "Nombre de usuario a crear"
+          },
+          "contrasena": {
+            "type": "string",
+            "description": "Contraseña del usuario a crear"
+          },
+          "cartera": {
+            "type": "integer",
+            "description": "El presupuesto del cliente para operar"
+          }
+        }
+      },
+      "BodyClient": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "description": "Id del usuario"
+          },
+          "nombre_usuario": {
+            "$ref": "#/components/parameters/nombre_usuario"
+          },
+          "contrasena": {
+            "$ref": "#/components/parameters/contrasena"
+          },
+          "cartera": {
+            "$ref": "#/components/parameters/cartera"
+          },
+          "carteraOriginal": {
+            "$ref": "#/components/parameters/carteraOriginal"
+          }
+        }
+      },
+      "BodyListClientPost": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/BodyClientPost"
+        }
+      },
+      "BodyListUsers": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/BodyClient"
+        }
+      },
+      "BodyListAccion": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/BodyAccion"
+        }
+      },
+      "BodyClientAccion": {
+        "type": "object",
+        "properties": {
+          "objUser": {
+            "type": "object",
+            "description": "Objeto de usuario"
+          },
+          "objAccion": {
+            "type": "object",
+            "description": "Objeto de acción"
+          },
+          "cantidadAcciones": {
+            "$ref": "#/components/parameters/cantidadAcciones"
+          },
+          "umbralInferior": {
+            "$ref": "#/components/parameters/umbralInferior"
+          },
+          "umbralSuperior": {
+            "$ref": "#/components/parameters/umbralSuperior"
+          },
+          "estadoAccion": {
+            "type": "string",
+            "description": "Informa si la acción se mantiene o alcanza los umbrales"
+          }
+        }
+      }
+    }
+  }
+}
